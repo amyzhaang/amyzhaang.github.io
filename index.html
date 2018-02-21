@@ -10,37 +10,114 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-111650176-1');
-    </script>
+    </script> 
 
-  	<title>Amy Zhang</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="icon.png">
+    <meta charset="utf-8">
+
+    <title>Amy Zhang</title>
+    <link href="icon.png" rel="icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="jquery.fullPage.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.easings.min.js"></script>
+    <script src="jquery.fullPage.js"></script>
+    <script src="script.js"></script>
+
   </head>
 
   <body>
-    <div>
-    	<h1>zhang<span style="color:#000000">amy</span></h1>
-      <br>
-    	<a class="section" href="experience.html">experience</a>
+    <div id="fullpage">
 
-    	<a class="section" href="about.html">about</a>
-
-    	<a class="section" href="interests.html">interests</a>
-
-      <div class="contact">
-        <h2 class="section">contact</h2>
-          <div class="dropdown">
-            <br>
-            <a class="link" href="mailto:zhangamy@mit.edu">zhangamy@mit.edu</a>
-            <br>
-            <a class="link" href="https://www.linkedin.com/in/zhang-amy/">linkedin</a>
-            <a class="link" href="https://www.facebook.com/amy.zhang.7121614">facebook</a>
-            <a class="link" href="https://www.instagram.com/amyzhaang/">instagram</a>
-            <a class="link" href="https://twitter.com/amyzhaang">twitter</a>
-          </div>
+      <div class="section landing">
+        <div class="landing-title">Hi!</div>
+        <br>
+        <div class="landing-subtitle">I'm Amy, and I'm a student at MIT.</div>
+        <br>
+        <p><i>Likes</i>: Java, Coffee <span style="font-size:140%">&#9749;</span></p>
+        <p><i>Dislikes</i>: Python, Snakes <span style="font-size:125%">&#128013;</span></p>
+        <br>
+        <p>Just kidding, both languages are wonderful, but I'd actually love to get coffee with you sometime (unless you're a snake...)</p>
+        <br>
+        <br>
+        <div class="container">
+          <a href="mailto:zhangamy@mit.edu" class="contact">
+            <div style="font-size:150%; color:LightGray">
+              <i class="far fa-envelope"></i>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/zhang-amy/" target="_blank" class="contact">
+            <div style="font-size:150%; color:LightGray">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </a>
+        </div>
+        <div class="down-arrow" style="font-size:170%; color:#A9A9A9">
+          <i class="fas fa-angle-down"></i>
+        </div>
       </div>
-      <p><i>this is a work in progress :)</i></p>
-    </div>
 
+      <div class="section experience">
+        <div class="container">
+          <div class="section-title">
+            Experience
+          </div>
+          <div>
+            <h1><a href="https://www.akamai.com/" target="_blank" class="link">Akamai Technologies</a></h1>
+              <p>Software Engineering Intern // <i>Summer 2018</i></p>
+            <br>
+            <h1><a href="https://www.media.mit.edu/" target="_blank" class="link">MIT Media Lab</a></h1>
+              <p>Undergraduate Researcher // <i>Sept 2017 - Apr 2018</i></p>
+            <br>
+            <h1><a href="https://dronebase.com/" target="_blank" class="link">DroneBase</a></h1>
+              <p>Front-End Software Engineering Extern // <i>January 2018</i></p>
+            <br>
+            <h1><a href="https://www.shell.com/" target="_blank" class="link">Shell</a></h1>
+              <p>Data Analytics Intern // <i>Summer 2017</i></p>
+            <br>
+            <br>
+            <p><a href="mailto:zhangamy@mit.edu" class="resume">Let me know</a> if you want my full resume.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section about">
+        <div class="up-arrow" style="font-size:170%; color:#A9A9A9">
+          <i class="fas fa-angle-up"></i>
+        </div>
+        <div class="container">
+          <div class="section-title">
+            About
+          </div>
+          <div>
+            <img src="me.jpg" class="img-me">
+            <br>
+            <br>
+            <h1>Hi!</h1>
+            <p>My name is Amy Zhang, and I’m a junior at MIT studying computer science.</p>
+            <br>
+            <p class="about-text">I’m interested in the intersection of art, technology, and design that can be found in fields like human-computer interaction, graphics, and animation. At the end of the day, however, my goal is to create or improve products that have had an impact both on my own life and on society.</p>
+            <br>
+            <p class="about-text">I’m originally from Torrance, California, and in my free time I’m most likely laying in bed or eating potatoes.</p>
+            <br>
+            <div class="container">
+              <a href="https://www.instagram.com/amyzhaang/" target="_blank" class="contact">
+                <div style="font-size:150%; color:LightGray">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a>
+              <a href="https://twitter.com/amyzhaang" target="_blank" class="contact">
+                <div style="font-size:170%; color:LightGray">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
