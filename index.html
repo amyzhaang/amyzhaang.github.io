@@ -13,111 +13,105 @@
     </script> 
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Amy Zhang</title>
     <link href="icon.png" rel="icon">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|EB+Garamond|Questrial" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="jquery.fullPage.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="jquery.easings.min.js"></script>
-    <script src="jquery.fullPage.js"></script>
     <script src="script.js"></script>
 
   </head>
 
   <body>
-    <div id="fullpage">
+    <div class="container">
+      <div class="title">Amy Zhang</div>
+      <div class="subtitle">senior at MIT studying computer science (6-3)</div>
+      <ul class="fa-ul">
 
-      <div class="section landing">
-        <div class="landing-title">Hi!</div>
-        <br>
-        <div class="landing-subtitle">I'm Amy, and I'm a student at MIT.</div>
-        <br>
-        <p><i>Likes</i>: Java, Coffee <span style="font-size:140%">&#9749;</span></p>
-        <p><i>Dislikes</i>: Python, Snakes <span style="font-size:125%">&#128013;</span></p>
-        <br>
-        <p>Just kidding, both languages are wonderful, but I'd actually love to get coffee with you sometime (unless you're a snake...)</p>
-        <br>
-        <br>
-        <div class="container">
-          <a href="mailto:zhangamy@mit.edu" class="contact">
-            <div style="font-size:150%; color:LightGray">
-              <i class="far fa-envelope"></i>
-            </div>
+        <li class="nofade-google">
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right arrow-google"></i></span>
+          spending summer 2019 at
+          <span class="underline google link-google">Google</span>
+
+          <div class="sub sub-google">
+            Software Engineering Intern - Mountain View, CA
+            <br>
+            Searchbox team
+          </div>
+        </li>
+
+        <li class="nofade-akamai nofade-twitch nofade-others">
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right arrow-twitch arrow-akamai arrow-others"></i></span>
+          previously
+          <span class="underline twitch link-twitch">Twitch</span>,
+          <span class="underline akamai link-akamai">Akamai</span>,
+          and
+          <span class="underline gray link-others">others</span>
+
+          <div class="sub sub-twitch">
+           <span class="underline-nohover twitch">Jan 2019</span>, Twitch - Transcoding team, San Francisco, CA
+          </div>
+
+          <div class="sub sub-akamai">
+            <span class="underline-nohover akamai">summer 2018</span>, Akamai Technologies - Cambridge, MA
+          </div>
+
+          <div class="sub sub-others">
+            <span class="underline-nohover dronebase">Jan 2018</span>, DroneBase - Santa Monica, CA
+            <br>
+            <span class="underline-nohover shell">summer 2017</span>, Shell - Bangalore, India
+          </div>
+        </li>
+
+        <li>
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right"></i></span>
+          interested in human-computer interaction, building innovative products, and the intersection of art and technology
+        </li>
+
+        <li>
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right"></i></span>
+          contact me through
+          <a href="mailto:zhangamy@mit.edu" style="color:#ce1a1d" class="icon">
+            <i class="far fa-envelope"></i>
           </a>
-          <a href="https://www.linkedin.com/in/zhang-amy/" target="_blank" class="contact">
-            <div style="font-size:150%; color:LightGray">
-              <i class="fab fa-linkedin-in"></i>
-            </div>
+          or 
+          <a href="https://www.linkedin.com/in/zhang-amy/" target="_blank" style="color:#0077b5" class="icon">
+            <i class="fab fa-linkedin-in"></i>
           </a>
-        </div>
-        <div class="down-arrow" style="font-size:170%; color:#A9A9A9">
-          <i class="fas fa-angle-down"></i>
-        </div>
-      </div>
+        </li>
 
-      <div class="section experience">
-        <div class="container">
-          <div class="section-title">
-            Experience
-          </div>
-          <div>
-            <h1><a href="https://www.akamai.com/" target="_blank" class="link">Akamai Technologies</a></h1>
-              <p>Software Engineering Intern // <i>Summer 2018</i></p>
-            <br>
-            <h1><a href="https://www.media.mit.edu/" target="_blank" class="link">MIT Media Lab</a></h1>
-              <p>Undergraduate Researcher // <i>Sept 2017 - Apr 2018</i></p>
-            <br>
-            <h1><a href="https://dronebase.com/" target="_blank" class="link">DroneBase</a></h1>
-              <p>Front-End Software Engineering Extern // <i>January 2018</i></p>
-            <br>
-            <h1><a href="https://www.shell.com/" target="_blank" class="link">Shell</a></h1>
-              <p>Data Analytics Intern // <i>Summer 2017</i></p>
-            <br>
-            <br>
-            <p><a href="mailto:zhangamy@mit.edu" class="resume">Let me know</a> if you want my full resume.</p>
-          </div>
-        </div>
-      </div>
+        <br>
 
-      <div class="section about">
-        <div class="up-arrow" style="font-size:170%; color:#A9A9A9">
-          <i class="fas fa-angle-up"></i>
-        </div>
-        <div class="container">
-          <div class="section-title">
-            About
-          </div>
-          <div>
-            <img src="me.jpg" class="img-me">
-            <br>
-            <br>
-            <h1>Hi!</h1>
-            <p>My name is Amy Zhang, and I’m a junior at MIT studying computer science.</p>
-            <br>
-            <p class="about-text">I’m interested in the intersection of art, technology, and design that can be found in fields like human-computer interaction, graphics, and animation. At the end of the day, however, my goal is to create or improve products that have had an impact both on my own life and on society.</p>
-            <br>
-            <p class="about-text">I’m originally from Torrance, California, and in my free time I’m most likely laying in bed or eating potatoes.</p>
-            <br>
-            <div class="container">
-              <a href="https://www.instagram.com/amyzhaang/" target="_blank" class="contact">
-                <div style="font-size:150%; color:LightGray">
-                  <i class="fab fa-instagram"></i>
-                </div>
-              </a>
-              <a href="https://twitter.com/amyzhaang" target="_blank" class="contact">
-                <div style="font-size:170%; color:LightGray">
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+        <li class="nofade-home">
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right arrow-home"></i></span>
+          <span class="underline gray link-home">socal</span> is home
+          <br>
+          <img class="asset sub sub-home" src="home.gif" alt="~gif here~">
+        </li>
+
+        <li>
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right"></i></span>
+          spends weekends being basic i.e. eating at highly yelped places, watching quirky sitcoms, going to workout classes
+        </li>
+
+        <li>
+          <span class="fa-li" style="color:#383d4e"><i class="fas fa-angle-double-right"></i></span>
+          learn more on
+          <a href="https://www.instagram.com/amyzhaang/" target="_blank" style="color:#e95950" class="icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          and
+          <a href="https://twitter.com/amyzhaang" target="_blank" style="color:#00aced" class="icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+
+      </ul>
     </div>
   </body>
 </html>

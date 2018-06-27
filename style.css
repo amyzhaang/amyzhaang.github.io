@@ -1,113 +1,159 @@
 body {
   background-color: white;
-  color: black;
 }
 
-h1 {
-  font-size: 170%;
-  font-weight: normal;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-p {
-  font-size: 100%;
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.landing {
-  padding: 0 25% 0 25%;
-}
-
-.landing-title {
-  font-size: 300%;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.landing-subtitle {
-  font-size: 170%;
-  font-family: 'PT Sans', sans-serif;
-}
-
-.contact {
-  padding-right: 3%;
-}
-
-.down-arrow {
-  position: absolute;
-  top: 94%;
-  left: 50%;
-}
-
-.down-arrow:hover {
-  cursor: pointer;
-}
-
-.up-arrow {
-  position: absolute;
-  top: 2%;
-  left: 50%;
-}
-
-.up-arrow:hover {
-  cursor: pointer;
-}
-
-.experience {
-  padding: 0 0 0 25%;
-}
-
-.link {
-  color: black;
+a {
   text-decoration: none;
 }
 
-.link:hover {
-  color: #D3D3D3;
+.icon {
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-.resume {
-  color: #808080;
-  text-decoration: none;
+.underline {
+  background-repeat: no-repeat;
+  background-size: 100% 0.45em;
+  background-position: 0 85%;
+  cursor: pointer;
 }
 
-.resume:hover {
-  color: #D3D3D3;
+.underline-nohover {
+  background-repeat: no-repeat;
+  background-size: 100% 0.45em;
+  background-position: 0 85%;
 }
 
-.about {
-  padding: 0 20% 0 25%;
+.sub {
+  display: none;
+  list-style-type: none;
+  font-family: 'Cutive Mono', sans-serif;
+  font-size: 80%;
 }
 
-.interests {
-  padding: 0 20% 0 25%;
+.fa-angle-up:hover {
+  cursor: pointer;
 }
 
+.gray {
+  background-image: linear-gradient(0, rgba(150,150,150,.4), rgba(150,150,150,.4));
+}
+
+.google {
+  background-image: linear-gradient(0, rgba(52,110,240,.4), rgba(52,110,240,.4));
+}
+
+.twitch {
+  background-image: linear-gradient(0, rgba(100,65,164,.4), rgba(100,65,164,.4));
+}
+
+.akamai {
+  background-image: linear-gradient(0, rgba(255,127,0,.4), rgba(255,127,0,.4));
+}
+
+.dronebase {
+  background-image: linear-gradient(0, rgba(10,91,163,.4), rgba(10,91,163,.4));
+}
+
+.shell {
+  background-image: linear-gradient(0, rgba(255,213,0,.4), rgba(255,213,0,.4));
+}
+
+/******* phones *******/
 .container {
+  position: absolute;
   display: flex;
-  @media (max-width: 100%) {
-    display: block;
+  flex-direction: column;
+  align-content: center;
+  height: 50%;
+  width: 90%;
+  left: 5%;
+  top: 8%;
+}
+
+.title {
+  font-size: 300%;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+  color: #43485d;
+  margin-bottom: 2%;
+}
+
+.subtitle {
+  font-size: 120%;
+  font-family: 'Cutive Mono', sans-serif;
+  color: #c8c8c8;
+  margin-bottom: 3%;
+}
+
+.asset {
+  width: 100%;
+}
+
+li {
+  font-size: 105%;
+  font-family: 'EB Garamond', serif;
+  display: list-item;
+  line-height: 140%;
+  left: 0;
+  transition: left 1s;
+}
+
+/******** laptops ********/
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+    left: 15%;
+    top: 15%;
+  }
+
+  .title {
+    font-size: 400%;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .asset {
+    width: 50%;
+  }
+
+  li {
+    font-size: 110%;
+    line-height: 140%;
+  }
+
+  .underline:hover {
+    background-size: 100% .75em;
+  	background-position: 0 85%;
+    font-style: italic;
+  }
+
+  .google:hover {
+    background-image: linear-gradient(0, rgba(226,43,41,.3), rgba(226,43,41,.3));
+  }
+
+  .twitch:hover {
+    background-image: linear-gradient(0, rgba(55,35,99,.3), rgba(55,35,99,.3));
+  }
+
+  .akamai:hover {
+    background-image: linear-gradient(0, rgba(0,191,255,.3), rgba(0,191,255,.3));
+  }
+
+  .dronebase:hover {
+    background-image: linear-gradient(0, rgba(255,72,0,.3), rgba(255,72,0,.3));
+  }
+
+  .shell:hover {
+    background-image: linear-gradient(0, rgba(255,30,39,.3), rgba(255,30,39,.3));
   }
 }
 
-.section-title {
-  font-size: 280%;
-  text-align: right;
-  padding-right: 5%;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.img-me {
-  width: 50%;
-}
-
-.about-text {
-  font-size: 85%;
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.video {
-  width: 100%;
+/******** desktop ********/
+@media (min-width: 1900px) {
+  .asset {
+    width: 40%;
+  }
 }
