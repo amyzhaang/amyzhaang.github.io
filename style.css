@@ -37,14 +37,6 @@ a {
   background-image: linear-gradient(0, rgba(255,213,0,.4), rgba(255,213,0,.4));
 }
 
-.quarantine {
-  color: black;
-}
-
-.quarantine:hover {
-  font-style: italic;
-}
-
 /******* phones *******/
 .container {
   position: absolute;
