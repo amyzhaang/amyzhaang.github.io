@@ -1,1 +1,1 @@
-# my super bare bones personal website
+# my personal website
