@@ -1,13 +1,14 @@
 body {
   background-color: white;
+  color: #01161E;
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
-  padding-inline-start: 0;
+.fa-li {
+  color: #F05D5E;
 }
 
 .icon {
@@ -56,7 +57,7 @@ ul {
   font-size: 400%;
   font-family: 'Questrial', sans-serif;
   font-weight: 500;
-  color: #43485d;
+  color: #313E50;
   line-height: 200%;
 }
 
@@ -79,7 +80,7 @@ li {
   }
 
   .title {
-    font-size: 550%;
+    font-size: 600%;
   }
 
   li {
