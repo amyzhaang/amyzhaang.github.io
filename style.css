@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #fcfcfc;
   color: #01161E;
 }
 
@@ -19,7 +19,7 @@ a {
 .underline {
   background-repeat: no-repeat;
   background-size: 100% 0.45em;
-  background-position: 0 75%;
+  background-position: 0 70%;
 }
 
 .google {
@@ -34,15 +34,11 @@ a {
   background-image: linear-gradient(0, rgba(255,127,0,.4), rgba(255,127,0,.4));
 }
 
-.dronebase {
-  background-image: linear-gradient(0, rgba(10,91,163,.4), rgba(10,91,163,.4));
+.mit {
+  background-image: linear-gradient(0, rgba(163,31,52,.4), rgba(163,31,52,.4));
 }
 
-.shell {
-  background-image: linear-gradient(0, rgba(255,213,0,.4), rgba(255,213,0,.4));
-}
-
-/******* phones *******/
+/* mobile */
 .container {
   position: absolute;
   display: flex;
@@ -56,14 +52,14 @@ a {
 .title {
   font-size: 400%;
   font-family: 'Questrial', sans-serif;
-  font-weight: 500;
+  font-weight: 550;
   color: #313E50;
   line-height: 200%;
 }
 
 li {
   font-size: 90%;
-  font-family: 'Amiri', sans-serif;
+  font-family: 'Amiri', serif;
   display: list-item;
   transition: left 1s;
   left: 0;
@@ -71,46 +67,21 @@ li {
   margin: 10% 0 10% 0;
 }
 
-/******** laptops ********/
+/* desktop */
 @media (min-width: 1024px) {
   .container {
     margin: 10% 0 10% 0;
-    width: 70%;
-    left: 15%;
+    max-width: 60%;
+    left: 20%;
   }
 
   .title {
-    font-size: 600%;
+    font-size: 650%;
   }
 
   li {
     font-size: 120%;
-    line-height: 150%;
+    line-height: 100%;
     margin: 5% 0 5% 0;
-  }
-
-  .underline:hover {
-    background-size: 100% .75em;
-    font-style: italic;
-  }
-
-  .google:hover {
-    background-image: linear-gradient(0, rgba(226,43,41,.3), rgba(226,43,41,.3));
-  }
-
-  .twitch:hover {
-    background-image: linear-gradient(0, rgba(55,35,99,.3), rgba(55,35,99,.3));
-  }
-
-  .akamai:hover {
-    background-image: linear-gradient(0, rgba(0,191,255,.3), rgba(0,191,255,.3));
-  }
-
-  .dronebase:hover {
-    background-image: linear-gradient(0, rgba(255,72,0,.3), rgba(255,72,0,.3));
-  }
-
-  .shell:hover {
-    background-image: linear-gradient(0, rgba(255,30,39,.3), rgba(255,30,39,.3));
   }
 }
