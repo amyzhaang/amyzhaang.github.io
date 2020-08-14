@@ -19,7 +19,7 @@ a {
 .underline {
   background-repeat: no-repeat;
   background-size: 100% 0.45em;
-  background-position: 0 70%;
+  background-position: 0 90%;
 }
 
 .google {
@@ -51,15 +51,14 @@ a {
 
 .title {
   font-size: 400%;
-  font-family: 'Questrial', sans-serif;
-  font-weight: 550;
+  font-family: 'Open Sans', sans-serif;
   color: #313E50;
   line-height: 200%;
 }
 
 li {
   font-size: 90%;
-  font-family: 'Amiri', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: list-item;
   transition: left 1s;
   left: 0;
@@ -76,12 +75,12 @@ li {
   }
 
   .title {
-    font-size: 650%;
+    font-size: 400%;
   }
 
   li {
-    font-size: 120%;
+    font-size: 110%;
     line-height: 100%;
-    margin: 5% 0 5% 0;
+    margin: 4% 0;
   }
 }
