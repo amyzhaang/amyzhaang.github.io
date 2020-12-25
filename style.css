@@ -1,45 +1,17 @@
 body {
   background-color: #fcfcfc;
-  color: #01161E;
 }
 
 a {
   text-decoration: none;
 }
 
-.fa-li {
-  color: #F05D5E;
-}
-
 .fa-ul {
-  margin-left: 1em; /*overrides default*/
+  margin-left: 0;
 }
 
 .icon {
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-.underline {
-  background-repeat: no-repeat;
-  background-size: 100% 0.45em;
-  background-position: 0 90%;
-}
-
-.google {
-  background-image: linear-gradient(0, rgba(52,110,240,.4), rgba(52,110,240,.4));
-}
-
-.twitch {
-  background-image: linear-gradient(0, rgba(100,65,164,.4), rgba(100,65,164,.4));
-}
-
-.akamai {
-  background-image: linear-gradient(0, rgba(255,127,0,.4), rgba(255,127,0,.4));
-}
-
-.mit {
-  background-image: linear-gradient(0, rgba(163,31,52,.4), rgba(163,31,52,.4));
+  padding-right: 3%;
 }
 
 .container { /* mobile */
@@ -53,8 +25,7 @@ a {
 
 .title { /* mobile */
   font-size: 250%;
-  font-family: 'Open Sans', sans-serif;
-  color: #313E50;
+  font-family: 'Lora', serif;
 }
 
 li { /* mobile */
@@ -68,7 +39,7 @@ li { /* mobile */
 
 @media (min-width: 1024px) {
   .container { /* desktop */
-    margin: 10% 0 10% 20%;
+    margin: 15% 0 10% 20%;
     max-width: 60%;
   }
 
